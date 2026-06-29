@@ -1,0 +1,58 @@
+[
+  {
+    "folio": "HR-20260627-279F58",
+    "created_at": "2026-06-27T20:14:12",
+    "status": "Pendiente de revisión RH/Finanzas/IT",
+    "data": {
+      "area": "Data Analytics",
+      "puesto": "Analista de Datos",
+      "ubicacion": "Monterrey",
+      "solicitante": "Fermin",
+      "seniority": "Trainee",
+      "tipo_contrato": "medio tiempo",
+      "modalidad": "híbrido",
+      "sede": "Corporativo Monterrey",
+      "centro_costos": "C-2045",
+      "salario_min": 30000,
+      "salario_max": 30000,
+      "fecha_inicio": "2026-10-15",
+      "presupuesto_aprobado": false,
+      "jefe_directo": "Fermin",
+      "justificacion": "Reemplazo por baja",
+      "hardware": [
+        "Laptop"
+      ],
+      "accesos": [
+        "Correo"
+      ]
+    }
+  },
+  {
+    "folio": "HR-20260627-266F07",
+    "created_at": "2026-06-27T20:28:25",
+    "status": "Pendiente de revisión RH/Finanzas/IT",
+    "data": {
+      "puesto": "Analista de datos",
+      "solicitante": "Fermin",
+      "area": "Ventas",
+      "seniority": "Manager",
+      "tipo_contrato": "tiempo completo",
+      "modalidad": "presencial",
+      "ubicacion": "Monterrey",
+      "sede": "Santa Fe",
+      "centro_costos": "CC-2045",
+      "salario_min": 30000,
+      "salario_max": 45000,
+      "fecha_inicio": "2026-10-15",
+      "presupuesto_aprobado": true,
+      "jefe_directo": "Miguel",
+      "justificacion": "Crecimiento del equipo",
+      "hardware": [
+        "Laptop"
+      ],
+      "accesos": [
+        "Teams"
+      ]
+    }
+  }
+]
