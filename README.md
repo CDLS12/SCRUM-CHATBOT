@@ -4,9 +4,12 @@ Prototipo funcional de chatbot con interfaz web para el proyecto SCRUM.
 
 ## Qué hace
 
-- HU1: permite iniciar una solicitud de contratación mediante chat.
-- HU2: detecta información faltante y pregunta dinámicamente por cada campo.
-- HU3: valida datos críticos del puesto, salario, fecha, modalidad y presupuesto.
+- HU1: Permite iniciar una solicitud de contratación mediante chat.
+- HU2: Detecta información faltante y pregunta dinámicamente por cada campo.
+- HU3: Valida datos críticos del puesto, salario, fecha, modalidad y presupuesto.
+- HU4: Que cada solicitud de contratacion tenga un folio unico
+- HU8: Recibir confirmacion del estado de mi solicitud.
+- HU10: Validar datos de la solicitud antes de registrarla mediante una API.
 - Guarda solicitudes localmente en `data/solicitudes.json`.
 
 ## Cómo correrlo
@@ -35,14 +38,14 @@ Después el bot preguntará lo que falte.
 También puedes escribir:
 
 ```text
-demo
+ejemplo
 ```
 
 para cargar una solicitud completa.
 
 ## Comandos útiles
 
-- `demo`: carga una solicitud de ejemplo.
+- `ejemplo`: carga una solicitud de ejemplo.
 - `resumen`: muestra el avance de la solicitud.
 - `confirmar`: guarda la solicitud y genera folio.
 - `cancelar`: reinicia la conversación.
@@ -64,7 +67,7 @@ pepsico_hirebot_ai/
 ## Notas para demo en clase
 
 1. Abre la app con `streamlit run app.py`.
-2. Presiona `Cargar demo` para mostrar el flujo completo rápido.
+2. Presiona `Cargar ejemplo` para mostrar el flujo completo rápido.
 3. Presiona `Resumen` para enseñar los campos capturados.
 4. Presiona `Confirmar` para generar un folio tipo `HR-YYYYMMDD-XXXXXX`.
 5. Muestra que el bot valida errores: prueba con un salario mínimo de `5000` o una fecha pasada.
